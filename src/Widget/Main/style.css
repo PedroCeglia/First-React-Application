@@ -1,0 +1,6 @@
+.container-intro{
+    background: linear-gradient(to right, #076585, #fff);
+
+    width: 100vw;
+    min-height: 60vh;
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    cursor: pointer;
+}
+section{
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Container Horario - Beggining */
+.container-horario ul{
+    width: 80vw;
+    margin: 30px 0 20px;
+    
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.container-horario ul li img{
+    object-fit: cover;
+    
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+
+    border: 3px solid rgba(0,0,0,0.5);
+}
+.container-horario ul li p{
+    width: 200px;
+}
+.container-horario ul li p:nth-of-type(1){
+    color: royalblue;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+/* Container Horario - End */
+
+/* Container Mapa - Beggining */
+.container-mapa p{
+    font-size: 1.2em;
+}
+/* Container Mapa - End */
