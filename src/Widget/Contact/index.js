@@ -41,6 +41,7 @@ function Contact(){
                     <section classname='container-mapa'>
                         <h2>Onde estamos <b>localizados</b>?</h2>
                         <p>Av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro - RJ. CEP: 22775-904</p>
+                        <p>Av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro - RJ. CEP: 22775-904</p>
                         <Mapa />
                     </section>
                 </div>
